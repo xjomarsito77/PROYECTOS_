@@ -1,0 +1,41 @@
+*{
+    font-family: 'segoe UI';
+}
+
+
+body{
+    background-color: #000000;
+    width: auto;
+    height: auto;
+}
+
+.main{
+   text-align: center;
+}
+h1{
+    border: 5px solid aqua;
+    background-color: rgb(15, 255, 255);
+
+}
+.cardscontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.card{
+    width: auto;
+    height: auto;
+    border: 5px solid aqua;
+    background-color: rgb(15, 255, 255);
+    display: grid;
+    grid-gap: 10px;
+}
+
+.task{
+    width: auto;
+    height: auto;
+    /* border: 5px solid #f2ff00; */
+    background-color: #f2ff00;
+}
